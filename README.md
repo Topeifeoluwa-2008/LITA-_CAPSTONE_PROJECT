@@ -1,4 +1,4 @@
-# LITA-_CAPSTONE_PROJECT
+# LITA_CAPSTONE_PROJECT
 ## Project 1 Title: Sales Performance Analysis for a Retail Store
 
 ### Introduction
@@ -50,7 +50,7 @@ Excel Exploration:
 Summarizing sales data using pivot tables to show total sales by product, region, and month.
 Using Excel formulas to compute average sales per product and total revenue by region.
 Generating visual and summary reports to identify high-level trends.
-
+![]()
 
 ```SQL
 select * from [dbo].[LITA Capstone Dataset]
