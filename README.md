@@ -52,15 +52,24 @@ Summarizing sales data using pivot tables to show total sales by product, region
 Using Excel formulas to compute average sales per product and total revenue by region.
 Generating visual and summary reports to identify high-level trends.
 
-
 ![PIVOTTABLE FOR SALE DATA](https://github.com/user-attachments/assets/0f1a000b-e792-4fa2-8678-3e0eee4e274f)
 
+![EXCEL CHART SALESDATA](https://github.com/user-attachments/assets/f42841ec-02ec-4f20-8f9a-cc13fbf3d19d)
 
-```SQL
-select * from [dbo].[LITA Capstone Dataset]
+![Customer Report Pivot Table](https://github.com/user-attachments/assets/38cd9d9b-671e-48df-9704-cc38bce7d1da)
+
+![CHART FOR CUSTOMERDATA](https://github.com/user-attachments/assets/b5f23516-226d-4567-8c06-4763f73b2848)
+
+-   SQL
+
 Importing the dataset into SQL Server for querying.
 Writing SQL queries to extract and calculate key performance metrics, such as total revenue per product, top-performing products, and monthly sales totals.
 Using SQL functions to identify products without sales in the last quarter and calculate the percentage of total sales contributed by each region.
+
+![SQL PROJECT 1](https://github.com/user-attachments/assets/797c823a-bba4-4453-b06b-44bdb8222b01)
+
+![SQL PROJECT 2](https://github.com/user-attachments/assets/4ff36bff-6788-427f-adb9-f4570bcf2893)
+
 
 ### Analysis and Key Insights
 *  Excel Analysis:
@@ -71,6 +80,11 @@ Using SQL functions to identify products without sales in the last quarter and c
 *  Customer analysis showed the top 5 customers with the highest purchase amounts, indicating loyal and high-value customers.
 *  Products with no recent sales were identified to inform inventory management.
 *  Power BI Dashboard: A Power BI dashboard was developed to visualize:
+
+
+![Sales data report PowerBi](https://github.com/user-attachments/assets/edfc6c29-8069-4211-b4f8-3d28cc843808)
+
+![Customer Report Power Bi](https://github.com/user-attachments/assets/4d259405-2449-4119-bc00-c3033515d6e5)
 
 ### Sales Overview: A summary of total revenue, average sales, and sales growth over time.
 -   Top-Performing Products: A chart showing the top products by sales and revenue.
