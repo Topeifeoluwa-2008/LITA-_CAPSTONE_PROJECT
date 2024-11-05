@@ -40,15 +40,15 @@ In the initial phase of the data cleaning and preparations, we perform the follo
 * Data cleaning formatting
 
 ### Exploratory Data Analysis
-EDA involves the exploring of the Data to answer some question about the Data such as;
-What is the overall sales trend
-Which product are top sellers
-What are the Products on peak sales?
+* EDA involves the exploring of the Data to answer some question about the Data such as;
+* What is the overall sales trend
+* Which product are top sellers
+* What are the Products on peak sales?
 
-Data Transformation
+### Data Transformation
 The data transformation process involved:
 
-Excel Exploration:
+### Excel Exploration:
 Summarizing sales data using pivot tables to show total sales by product, region, and month.
 Using Excel formulas to compute average sales per product and total revenue by region.
 Generating visual and summary reports to identify high-level trends.
@@ -57,16 +57,14 @@ Generating visual and summary reports to identify high-level trends.
 
 ![EXCEL CHART SALESDATA](https://github.com/user-attachments/assets/f42841ec-02ec-4f20-8f9a-cc13fbf3d19d)
 
-
--   SQL
-
+- SQL
 Importing the dataset into SQL Server for querying.
-Writing SQL queries to extract and calculate key performance metrics, such as total revenue per product, top-performing products, and monthly sales totals.
-Using SQL functions to identify products without sales in the last quarter and calculate the percentage of total sales contributed by each region.
+Writing SQL queries to extract and calculate key performance metrics, such as total revenue per product,
+top-performing products, and monthly sales totals.
+Using SQL functions to identify products without sales in the last quarter and calculate the percentage of 
+total sales contributed by each region.
 
 ![SQL PROJECT 1](https://github.com/user-attachments/assets/797c823a-bba4-4453-b06b-44bdb8222b01)
-
-
 
 
 ### Analysis and Key Insights
@@ -95,17 +93,23 @@ Using SQL functions to identify products without sales in the last quarter and c
 -   Address seasonal sales trends by preparing targeted sales campaigns for peak seasons.
 
 ### Conclusion
-The analysis provided a comprehensive view of the retail store's sales performance, highlighting key products, customers, and regions. By implementing the recommendations and leveraging the interactive Power BI dashboard, the retail store can make informed strategic decisions to improve profitability and enhance customer engagement.
+The analysis provided a comprehensive view of the retail store's sales performance, highlighting key products, 
+customers, and regions. By implementing the recommendations and leveraging the interactive Power BI dashboard, 
+the retail store can make informed strategic decisions to improve profitability and enhance customer engagement.
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------
 
-
-project 2
+# PROJECT
 
 ## Customer Segmentation for a Subscription Service
 
 Introduction
-Customer segmentation is a powerful analytical approach used by subscription services to understand and respond to customer behaviors, preferences, and trends. By segmenting customers, companies can tailor their offerings, improve customer retention, and increase revenue. This project focuses on analyzing customer data to identify subscription patterns, track the most popular and long-term subscriptions, and understand trends in cancellations and renewals. The final output is an interactive Power BI dashboard that effectively presents these findings.
+Customer segmentation is a powerful analytical approach used by subscription services to understand and 
+respond to customer behaviors, preferences, and trends. By segmenting customers, companies can tailor their offerings, 
+improve customer retention, and increase revenue. This project focuses on analyzing customer data to identify subscription patterns, 
+track the most popular and long-term subscriptions, and understand trends in cancellations and renewals. 
+The final output is an interactive Power BI dashboard that effectively presents these findings.
 
 ## Problem Statement
 Subscription services often face challenges related to customer churn, identifying valuable customer segments, and understanding key drivers behind subscription renewals and cancellations. This project aims to address the following questions:
@@ -125,10 +129,9 @@ The dataset includes:
 * 
 This data was utilized in Excel for initial exploration and in SQL for detailed querying and analysis.
 
-Data Transformation
+## Data Transformation
 The data transformation process involved the following steps:
-
-Excel Analysis:
+### Excel Analysis:
 *   Creating pivot tables to analyze customer data and identify trends in subscription patterns by type and region.
 *   Calculating the average subscription duration using Excel formulas.
 *   Generating additional reports, such as total revenue per subscription type and cancellation trends.
