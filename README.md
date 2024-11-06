@@ -1,19 +1,21 @@
 # LITA_CAPSTONE_PROJECT 1
 
-## [Project Overview](Project_Overview)
-
 ## Title: Sales Performance Analysis for a Retail Store
 
-### Introduction
-Analyzing sales performance is crucial for any retail store looking to improve its profitability, optimize product offerings, and enhance customer satisfaction. This project focuses on conducting an in-depth analysis of a retail store's sales data to uncover insights related to top-selling products, regional sales performance, and monthly sales trends. The goal is to develop a comprehensive Power BI dashboard that integrates findings from Excel and SQL analyses, providing an interactive overview for stakeholders to make data-driven decisions.
+### [Project Overview](Project_Overview)
+
+Analyzing sales performance is crucial for any retail store looking to improve its profitability, optimize product offerings, and enhance customer satisfaction.
+This project focuses on conducting an in-depth analysis of a retail store's sales data to uncover insights related to top-selling products, regional sales performance, and monthly sales trends.
+The goal is to develop a comprehensive Power BI dashboard that integrates findings from Excel and SQL analyses, providing an interactive overview for stakeholders to make data-driven decisions.
 
 ### Problem Statement
-The retail industry is highly competitive, with businesses striving to understand their sales patterns to maintain a competitive edge. This project aims to address the following business questions:
-Which products are the top sellers?
-How does sales performance vary by region?
-What are the monthly sales trends?
-Who are the most valuable customers by purchase volume?
-Which products have not performed well in the last quarter?
+The retail industry is highly competitive, with businesses striving to understand their sales patterns to maintain a competitive edge. 
+This project aims to address the following business questions:
+-   Which products are the top sellers?
+-   How does sales performance vary by region?
+-   What are the monthly sales trends?
+-   Who are the most valuable customers by purchase volume?
+-   Which products have not performed well in the last quarter?
 
 ### Data Sources
 Data Sourcing
@@ -57,9 +59,18 @@ Generating visual and summary reports to identify high-level trends.
 
 ![PIVOTTABLE FOR SALE DATA](https://github.com/user-attachments/assets/0f1a000b-e792-4fa2-8678-3e0eee4e274f)
 
+
 ![EXCEL CHART SALESDATA](https://github.com/user-attachments/assets/f42841ec-02ec-4f20-8f9a-cc13fbf3d19d)
 
 - SQL
+- ```SQL
+Select * from [dbo].[LITA Capstone Dataset]
+
+SELECT product_category, 
+SUM(sales_amount) AS total_sales
+FROM sales
+GROUP BY product_category;
+```
 Importing the dataset into SQL Server for querying.
 Writing SQL queries to extract and calculate key performance metrics, such as total revenue per product,
 top-performing products, and monthly sales totals.
@@ -78,7 +89,7 @@ total sales contributed by each region.
 *  Customer analysis showed the top 5 customers with the highest purchase amounts, indicating loyal and high-value customers.
 *  Products with no recent sales were identified to inform inventory management.
 *  Power BI Dashboard: A Power BI dashboard was developed to visualize:
-
+  
 
 ![Sales data report PowerBi](https://github.com/user-attachments/assets/edfc6c29-8069-4211-b4f8-3d28cc843808)
 
@@ -99,15 +110,19 @@ total sales contributed by each region.
 customers, and regions.
 -   By implementing the recommendations and leveraging the interactive Power BI dashboard, 
 -   The retail store can make informed strategic decisions to improve profitability and enhance customer engagement.
+  
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 # PROJECT
 
 ## Customer Segmentation for a Subscription Service
 
-Introduction
+### [Project Overview](Project_Overview)
+
 Customer segmentation is a powerful analytical approach used by subscription services to understand and 
 respond to customer behaviors, preferences, and trends. By segmenting customers, companies can tailor their offerings, 
 improve customer retention, and increase revenue. This project focuses on analyzing customer data to identify subscription patterns, 
@@ -141,12 +156,22 @@ The data transformation process involved the following steps:
 *   Calculating the average subscription duration using Excel formulas.
 *   Generating additional reports, such as total revenue per subscription type and cancellation trends.
   
+  
 ![Customer Report Pivot Table](https://github.com/user-attachments/assets/38cd9d9b-671e-48df-9704-cc38bce7d1da)
+
 
 ![CHART FOR CUSTOMERDATA](https://github.com/user-attachments/assets/b5f23516-226d-4567-8c06-4763f73b2848)
 
-
 ## SQL Analysis:
+
+-   ```SQL
+Select * from [dbo].[LITA Capstone Dataset]
+select region,
+COUNT(customer_id) As Total_customers
+From customers
+Group by region;
+```
+
 *   Loading the dataset into SQL Server for deeper analysis.
 *   Writing SQL queries to answer key business questions:
 *   Total number of customers by region.
@@ -157,7 +182,9 @@ The data transformation process involved the following steps:
 *   The top 3 regions with the highest subscription cancellations.
 *   Count of active and canceled subscriptions.
 
+
 ![SQL PROJECT 2](https://github.com/user-attachments/assets/4ff36bff-6788-427f-adb9-f4570bcf2893)
+
 
 ### Analysis and Key Insights
 Excel Analysis:
@@ -171,13 +198,15 @@ Excel Analysis:
 -   The regions with the highest cancellation rates were identified to inform targeted retention strategies.
 
 ## Power BI Dashboard
-- The Power BI dashboard was designed to present key findings interactively:
+-   The Power BI dashboard was designed to present key findings interactively:
 -   Customer Segmentation Overview: A summary highlighting the total number of customers, popular subscription types, and regional distribution.
 -   Cancellation Analysis: Visuals showing the number of cancellations over time, with slicers to filter by region and subscription type.
 -   Subscription Duration Insights: Charts depicting average duration and the number of long-term subscribers.
 -   Revenue by Subscription Type: A breakdown showing which subscription types generate the most revenue.
 
+
   ![Customer Report Power Bi](https://github.com/user-attachments/assets/4d259405-2449-4119-bc00-c3033515d6e5)
+
 
 ## Recommendations
 Based on the analysis, the following recommendations are proposed:
