@@ -1,5 +1,7 @@
-# LITA_CAPSTONE_PROJECT
-## Project 1 
+# LITA_CAPSTONE_PROJECT 1
+
+## [Project Overview](Project_Overview)
+
 ## Title: Sales Performance Analysis for a Retail Store
 
 ### Introduction
@@ -93,12 +95,13 @@ total sales contributed by each region.
 -   Address seasonal sales trends by preparing targeted sales campaigns for peak seasons.
 
 ### Conclusion
-The analysis provided a comprehensive view of the retail store's sales performance, highlighting key products, 
-customers, and regions. By implementing the recommendations and leveraging the interactive Power BI dashboard, 
-the retail store can make informed strategic decisions to improve profitability and enhance customer engagement.
+-   The analysis provided a comprehensive view of the retail store's sales performance, highlighting key products, 
+customers, and regions.
+-   By implementing the recommendations and leveraging the interactive Power BI dashboard, 
+-   The retail store can make informed strategic decisions to improve profitability and enhance customer engagement.
 
 
------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # PROJECT
 
@@ -112,7 +115,8 @@ track the most popular and long-term subscriptions, and understand trends in can
 The final output is an interactive Power BI dashboard that effectively presents these findings.
 
 ## Problem Statement
-Subscription services often face challenges related to customer churn, identifying valuable customer segments, and understanding key drivers behind subscription renewals and cancellations. This project aims to address the following questions:
+Subscription services often face challenges related to customer churn, identifying valuable customer segments, 
+and understanding key drivers behind subscription renewals and cancellations. This project aims to address the following questions:
 -   Which subscription types are most popular?
 -   What is the average subscription duration?
 -   Which customers have subscriptions longer than 12 months?
@@ -126,11 +130,12 @@ The dataset includes:
 *   Subscription start and end dates
 *   Subscription types and associated revenue
 *   Status of subscriptions (active or canceled)
-* 
+
 This data was utilized in Excel for initial exploration and in SQL for detailed querying and analysis.
 
 ## Data Transformation
 The data transformation process involved the following steps:
+
 ### Excel Analysis:
 *   Creating pivot tables to analyze customer data and identify trends in subscription patterns by type and region.
 *   Calculating the average subscription duration using Excel formulas.
@@ -154,15 +159,16 @@ The data transformation process involved the following steps:
 
 ![SQL PROJECT 2](https://github.com/user-attachments/assets/4ff36bff-6788-427f-adb9-f4570bcf2893)
 
-Analysis and Key Insights
+### Analysis and Key Insights
 Excel Analysis:
-The analysis revealed that specific subscription types are more popular than others, helping to inform marketing and product strategies.
-The average subscription duration provided insights into customer loyalty and lifecycle.
-SQL Analysis:
-The most popular subscription type was identified through the customer count.
-Customers who canceled their subscription within the first 6 months were highlighted, revealing potential issues in the early subscription phase.
-The SQL queries also calculated total revenue per subscription type, emphasizing high-value and less profitable subscriptions.
-The regions with the highest cancellation rates were identified to inform targeted retention strategies.
+-   The analysis revealed that specific subscription types are more popular than others, helping to inform marketing and product strategies.
+-   The average subscription duration provided insights into customer loyalty and lifecycle.
+
+### SQL Analysis:
+-   The most popular subscription type was identified through the customer count.
+-   Customers who canceled their subscription within the first 6 months were highlighted, revealing potential issues in the early subscription phase.
+-   The SQL queries also calculated total revenue per subscription type, emphasizing high-value and less profitable subscriptions.
+-   The regions with the highest cancellation rates were identified to inform targeted retention strategies.
 
 ## Power BI Dashboard
 - The Power BI dashboard was designed to present key findings interactively:
