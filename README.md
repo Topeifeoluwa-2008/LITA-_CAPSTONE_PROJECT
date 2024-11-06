@@ -62,15 +62,14 @@ Generating visual and summary reports to identify high-level trends.
 
 ![EXCEL CHART SALESDATA](https://github.com/user-attachments/assets/f42841ec-02ec-4f20-8f9a-cc13fbf3d19d)
 
-- SQL
+
 - ```SQL
 Select * from [dbo].[LITA Capstone Dataset]
-
 SELECT product_category, 
 SUM(sales_amount) AS total_sales
 FROM sales
 GROUP BY product_category;
-```
+
 Importing the dataset into SQL Server for querying.
 Writing SQL queries to extract and calculate key performance metrics, such as total revenue per product,
 top-performing products, and monthly sales totals.
@@ -117,7 +116,7 @@ customers, and regions.
 
 
 
-# PROJECT
+# PROJECT 2
 
 ## Customer Segmentation for a Subscription Service
 
@@ -170,7 +169,7 @@ select region,
 COUNT(customer_id) As Total_customers
 From customers
 Group by region;
-```
+
 
 *   Loading the dataset into SQL Server for deeper analysis.
 *   Writing SQL queries to answer key business questions:
