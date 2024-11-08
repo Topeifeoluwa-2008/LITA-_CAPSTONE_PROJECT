@@ -20,7 +20,7 @@ This project aims to address the following business questions:
 ### Data Sources
 Data Sourcing
 The dataset used in this analysis is derived from internal sales records of the retail store, provided in an Excel file format. 
--   The dataset includes fields such as:
+The dataset includes fields such as:
 -   Product names and categories,
 -   Transaction dates and details,
 -   Revenue and sales quantities,
